@@ -1,0 +1,84 @@
+
+.list {
+    list-style: none;
+}
+/* Header */
+.header {
+    background-color: #fff;
+}
+
+.logo {
+    color: #4D5AE5;
+}
+
+.logo-first {
+    color: #2E2F42;
+}
+.site-nav .link {
+    color: #2E2F42
+}
+
+.contakts .link {
+    color: #434455;
+ }
+
+.contakts .link:hover,
+.contakts .link:focus {
+    color:#000
+ }
+/* Mein */
+
+.solution, footer {
+    background-color: #2E2F42;
+}
+
+.solution-title {
+    color: #fff
+}
+
+button {
+    color: #fff;
+    background-color: #4D5AE5;
+ }
+/* Section Description*/
+.description {
+    background-color: #fff;
+}
+
+.description-title .work {
+    color: #2E2F42;
+}
+
+.description-benefits {
+    color: #434455;
+}
+/* Section Team */
+.team {
+    background-color: #F4F4FD;
+}
+.team-title .name {
+    color: #2E2F42;
+}
+
+.direction {
+    color: #434455;
+}
+/* Footer */
+
+.logo-second {
+    color: #F4F4FD;
+}
+.wish {
+    color: #E7E9FC;
+}
+
+/* Стили для портфолио */
+
+/* цвет основного текста #2E2F42 */
+/* вторичный цвет текста #434455 */
+/* акцент на макете WEB в heder и footer #4D5AE5*/
+/* цвет текста в hero #fff*/
+/* цвет studio в footer #F4F4FD */
+/* цвет основного фона #fff */
+/* цвет вторичного фона #F4F4FD */
+/* цвет фона в hero и footer #2E2F42 */
