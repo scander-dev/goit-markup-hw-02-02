@@ -14,18 +14,22 @@
 .logo-first {
     color: #2E2F42;
 }
+
 .site-nav .link {
     color: #2E2F42
 }
 
+.link:hover,
 .contakts .link {
     color: #434455;
- }
+} 
 
+.link:focus,
 .contakts .link:hover,
 .contakts .link:focus {
-    color:#000
+    color:#4D5AE5
  }
+ 
 /* Mein */
 
 .solution, footer {
@@ -74,6 +78,15 @@ button {
 
 /* Стили для портфолио */
 
+.but {
+    color : #4D5AE5;
+    background-color: #E7E9FC;
+}
+
+.but .link:hover {
+    color : #fff;
+    background-color: #4D5AE5;  
+}
 /* цвет основного текста #2E2F42 */
 /* вторичный цвет текста #434455 */
 /* акцент на макете WEB в heder и footer #4D5AE5*/
