@@ -2,12 +2,44 @@
 .list {
     list-style: none;
 }
-/* Header */
-.header {
-    background-color: #fff;
-}
 
-.logo {
+.link {
+    text-decoration: none;
+  }
+
+:root {
+    --main-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --accent-color: #E7E9FC;
+    --focused-links-color: #4D5AE5;
+    --helper-text-color: #8E8F99;
+    --hairlines-color: #E7E9FC;
+    --light-background-color: #F4F4FD;
+    --valid-fields-color: #31D0AA;
+    --background-color: #fff;
+    --main-font: Roboto, sans-serif;
+} 
+
+body {
+    background-color: var(--background-color);
+    color: var(--main-text-color);
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    }
+
+
+/* Header */
+
+.header-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #4D5AE5;
 }
 
@@ -15,36 +47,44 @@
     color: #2E2F42;
 }
 
-.site-nav .link {
-    color: #2E2F42
+.header-link {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+ 
+.contakts-link {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;   
 }
 
-.link:hover,
-.contakts .link {
-    color: #434455;
-} 
-
-.link:focus,
-.contakts .link:hover,
-.contakts .link:focus {
+.logo-first:hover,
+.logo-first:focus,
+.header-link:hover,
+.header-link:focus,
+.contakts-link:hover,
+.contakts-link:focus {
     color:#4D5AE5
- }
- 
+}
+
 /* Mein */
 
-.solution, footer {
-    background-color: #2E2F42;
-}
-
-.solution-title {
-    color: #fff
-}
 
 button {
     color: #fff;
     background-color: #4D5AE5;
  }
 /* Section Description*/
+
+
+
+
 .description {
     background-color: #fff;
 }
