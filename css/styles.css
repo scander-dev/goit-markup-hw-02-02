@@ -83,10 +83,17 @@ button {
     background-color: #E7E9FC;
 }
 
-.but .link:hover {
+.but:hover,
+.but:focus {
     color : #fff;
     background-color: #4D5AE5;  
 }
+
+
+
+
+
+
 /* цвет основного текста #2E2F42 */
 /* вторичный цвет текста #434455 */
 /* акцент на макете WEB в heder и footer #4D5AE5*/
